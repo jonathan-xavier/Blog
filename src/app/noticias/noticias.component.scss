@@ -1,0 +1,33 @@
+.card-post{
+  
+  max-width: 350px;
+  min-height: 300px;
+  border: 1px solid #cfd8dc;
+  border-radius: 4px 3px 6px / 2px 4px;
+  flex-basis: 33.333333%;
+  margin: 10px;
+  text-align: justify;
+  
+  
+}
+.card-post img{
+  height: 175px;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+  // display: grid;
+  // height:100vh;
+  // grid-template-columns: repeat(3,1fr);
+  // grid-template-rows: 1fr 2fr 1fr;
+}
+
+.text p{
+  color: #757575;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
